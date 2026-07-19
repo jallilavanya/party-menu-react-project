@@ -1,0 +1,13 @@
+const image = 'https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=1000&q=85'
+
+export const menuItems = [
+  { id: 'tandoori-chicken', name: 'Tandoori Chicken', category: 'Main', diet: 'Non-Veg', serves: 2, image, description: 'Succulent chicken marinated in yogurt and spices, roasted until charred and juicy.', ingredients: [['Chicken legs', '4 pieces'], ['Yogurt', '1 cup'], ['Tandoori masala', '2 tbsp'], ['Lemon juice', '1 tbsp']] },
+  { id: 'dal-makhani', name: 'Dal Makhani', category: 'Main', diet: 'Veg', serves: 2, image, description: 'Creamy black lentils slow-cooked for hours with tomatoes, butter, and cream until rich and velvety.', ingredients: [['Black urad dal', '1 cup'], ['Butter', '3 tbsp'], ['Fresh cream', '1/4 cup'], ['Tomato puree', '1/2 cup'], ['Ginger-garlic paste', '1 tbsp']] },
+  { id: 'paneer-tikka', name: 'Paneer Tikka', category: 'Starter', diet: 'Veg', serves: 2, image, description: 'Cubes of cottage cheese grilled with bell peppers and onion in spiced marinade.', ingredients: [['Paneer', '250 g'], ['Bell pepper', '1'], ['Yogurt', '1/2 cup']] },
+  { id: 'chicken-65', name: 'Chicken 65', category: 'Starter', diet: 'Non-Veg', serves: 2, image, description: 'Crispy fried chicken bites tossed with curry leaves, chilli, and South Indian spices.', ingredients: [['Chicken', '300 g'], ['Curry leaves', '10'], ['Chilli powder', '1 tsp']] },
+  { id: 'gulab-jamun', name: 'Gulab Jamun', category: 'Desert', diet: 'Veg', serves: 4, image, description: 'Soft milk-solid dumplings soaked in rose-cardamom sugar syrup.', ingredients: [['Milk powder', '1 cup'], ['Sugar', '1 cup'], ['Cardamom', '4 pods']] },
+  { id: 'jeera-rice', name: 'Jeera Rice', category: 'Sides', diet: 'Veg', serves: 2, image, description: 'Fragrant basmati rice tempered with cumin seeds and ghee.', ingredients: [['Basmati rice', '1 cup'], ['Cumin seeds', '1 tsp'], ['Ghee', '1 tbsp']] },
+  { id: 'fried-avocado-tacos', name: 'Fried Avocado Tacos', category: 'Main', diet: 'Veg', serves: 2, image, description: 'Crispy tortillas filled with fried avocado, salsa, and fresh herbs.', ingredients: [['Avocado', '2'], ['Tortillas', '4'], ['Salsa', '1 cup']] },
+  { id: 'butter-naan', name: 'Butter Naan', category: 'Sides', diet: 'Veg', serves: 2, image, description: 'Soft leavened flatbread brushed with butter from the tandoor.', ingredients: [['Flour', '2 cups'], ['Yogurt', '2 tbsp'], ['Butter', '2 tbsp']] },
+  { id: 'samosa-platter', name: 'Samosa Platter', category: 'Starter', diet: 'Veg', serves: 4, image, description: 'Crisp pastry pockets stuffed with spiced potatoes and peas.', ingredients: [['Potatoes', '3'], ['Peas', '1/2 cup'], ['Pastry sheets', '8']] }
+]

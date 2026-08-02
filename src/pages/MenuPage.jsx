@@ -6,6 +6,7 @@ import { menuItems } from '../data/menuItems'
 import { filterMenuItems } from '../utils/menuUtils'
 
 export default function MenuPage() {
+<<<<<<< HEAD
   const [category, setCategory] = useState('All')
   const [diet, setDiet] = useState('All')
   const [searchInput, setSearchInput] = useState('')
@@ -47,4 +48,9 @@ export default function MenuPage() {
       )}
     </main>
   )
+=======
+  const [category, setCategory] = useState('All'); const [diet, setDiet] = useState('All'); const [searchTerm, setSearchTerm] = useState('')
+  const filteredItems = filterMenuItems(menuItems, category, diet, searchTerm)
+  return <main className="page-container"><Header /><FilterPanel category={category} diet={diet} searchTerm={searchTerm} onCategoryChange={setCategory} onDietChange={setDiet} onSearchChange={setSearchTerm} /><p className="item-count">{filteredItems.length} items found</p>{filteredItems.length ? <section className="recipe-grid">{filteredItems.map((item) => <RecipeCard key={item.id} item={item} />)}</section> : <p className="empty-message">No dishes found. Try different filters.</p>}</main>
+>>>>>>> ff65ebb31bd781d137ffde87d22e7f163cb42e18
 }

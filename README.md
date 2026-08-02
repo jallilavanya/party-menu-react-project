@@ -14,6 +14,7 @@ npm install
 npm run dev
 ```
 
+<<<<<<< HEAD
 ## Authentication
 
 This app uses the serverless API for authentication:
@@ -38,10 +39,20 @@ The app uses the following localStorage keys:
 - `party_menu_token` - Authentication token
 - `party_menu_user` - Authenticated user info
 - `party_menu_saved_recipes` - Array of saved recipes
+=======
+In a second terminal, start the demo login API:
+
+```bash
+npm run server
+```
+
+Use `admin@example.com` and `password` to sign in to the included demo API.
+>>>>>>> ff65ebb31bd781d137ffde87d22e7f163cb42e18
 
 ## Features
 
 - Protected sign-in flow with loading and error states
+<<<<<<< HEAD
 - Category, diet, and recipe-name filtering (search on button click)
 - Recipe detail view with ingredients and save functionality
 - Local Storage saved recipes and removal controls
@@ -56,6 +67,12 @@ The app uses the following localStorage keys:
 - `/menu/:id` - Public recipe detail page (public)
 - `/saved-recipes` - Public saved recipes page (public)
 - `*` - Public 404 page (displays different CTA based on auth state)
+=======
+- Category, diet, and recipe-name filtering
+- Recipe detail view with ingredients
+- Local Storage saved recipes and removal controls
+- Responsive layouts for desktop and mobile
+>>>>>>> ff65ebb31bd781d137ffde87d22e7f163cb42e18
 
 ## Technologies
 
@@ -69,12 +86,21 @@ The app uses the following localStorage keys:
 ```text
 src/
 ├── components/   Reusable interface pieces
+<<<<<<< HEAD
 ├── context/      Authentication and saved recipes state
+=======
+├── context/      Authentication state
+>>>>>>> ff65ebb31bd781d137ffde87d22e7f163cb42e18
 ├── data/         Menu data
 ├── pages/        Route pages
 ├── routes/       Route protection
 ├── services/     API-facing code
 ├── styles/       Global styles
+<<<<<<< HEAD
 └── utils/        Menu and recipe helpers
 ```
 
+=======
+└── utils/        Menu helpers
+```
+>>>>>>> ff65ebb31bd781d137ffde87d22e7f163cb42e18

@@ -38,7 +38,6 @@ The app uses the following localStorage keys:
 - `party_menu_token` - Authentication token
 - `party_menu_user` - Authenticated user info
 - `party_menu_saved_recipes` - Array of saved recipes
-=======
 In a second terminal, start the demo login API:
 
 ```bash
@@ -65,7 +64,6 @@ Use `admin@example.com` and `password` to sign in to the included demo API.
 - `/menu/:id` - Public recipe detail page (public)
 - `/saved-recipes` - Public saved recipes page (public)
 - `*` - Public 404 page (displays different CTA based on auth state)
-=======
 - Category, diet, and recipe-name filtering
 - Recipe detail view with ingredients
 - Local Storage saved recipes and removal controls

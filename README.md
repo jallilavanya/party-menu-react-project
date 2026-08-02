@@ -14,7 +14,6 @@ npm install
 npm run dev
 ```
 
-<<<<<<< HEAD
 ## Authentication
 
 This app uses the serverless API for authentication:
@@ -47,12 +46,11 @@ npm run server
 ```
 
 Use `admin@example.com` and `password` to sign in to the included demo API.
->>>>>>> ff65ebb31bd781d137ffde87d22e7f163cb42e18
+
 
 ## Features
 
 - Protected sign-in flow with loading and error states
-<<<<<<< HEAD
 - Category, diet, and recipe-name filtering (search on button click)
 - Recipe detail view with ingredients and save functionality
 - Local Storage saved recipes and removal controls
@@ -72,8 +70,6 @@ Use `admin@example.com` and `password` to sign in to the included demo API.
 - Recipe detail view with ingredients
 - Local Storage saved recipes and removal controls
 - Responsive layouts for desktop and mobile
->>>>>>> ff65ebb31bd781d137ffde87d22e7f163cb42e18
-
 ## Technologies
 
 - React 19
@@ -86,21 +82,15 @@ Use `admin@example.com` and `password` to sign in to the included demo API.
 ```text
 src/
 ├── components/   Reusable interface pieces
-<<<<<<< HEAD
 ├── context/      Authentication and saved recipes state
-=======
 ├── context/      Authentication state
->>>>>>> ff65ebb31bd781d137ffde87d22e7f163cb42e18
 ├── data/         Menu data
 ├── pages/        Route pages
 ├── routes/       Route protection
 ├── services/     API-facing code
 ├── styles/       Global styles
-<<<<<<< HEAD
 └── utils/        Menu and recipe helpers
 ```
 
-=======
 └── utils/        Menu helpers
 ```
->>>>>>> ff65ebb31bd781d137ffde87d22e7f163cb42e18
